@@ -1,0 +1,23 @@
+<dom-module id="hashy-page-error">
+
+  <template>
+    <style include="app-styles">
+    </style>
+
+    <h2>Sorry &#x1F622;</h2>
+    <p>{{message}}</p>
+  </template>
+
+  <script>
+    Polymer({
+      is: "hashy-page-error",
+      properties: {
+        message: {
+          type: String,
+          value: "Something went wrong."
+        }
+      }
+    });
+  </script>
+
+</dom-module>
