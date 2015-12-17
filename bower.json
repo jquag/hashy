@@ -1,0 +1,24 @@
+{
+  "name": "hashy",
+  "main": "hashy.js",
+  "homepage": "https://github.com/jquag/hashy",
+  "authors": [
+    "jquag <mail@johnquagliata.com>"
+  ],
+  "description": "polymer behaviors to support navigation in a single page app",
+  "moduleType": [
+    "globals"
+  ],
+  "keywords": [
+    "polymer",
+    "navigation"
+  ],
+  "license": "MIT",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ]
+}
